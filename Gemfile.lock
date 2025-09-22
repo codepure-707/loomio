@@ -415,11 +415,11 @@ GEM
       net-protocol
     net_http_timeout_errors (1.0.0)
     nio4r (2.7.4)
-    nokogiri (1.18.8-arm64-darwin)
+    nokogiri (1.18.10-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.8-x86_64-darwin)
+    nokogiri (1.18.10-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.8-x86_64-linux-gnu)
+    nokogiri (1.18.10-x86_64-linux-gnu)
       racc (~> 1.4)
     oga (3.4)
       ast
@@ -528,7 +528,7 @@ GEM
     retriable (3.1.2)
     reverse_markdown (3.0.0)
       nokogiri
-    rexml (3.4.1)
+    rexml (3.4.4)
     rspec-activemodel-mocks (1.2.0)
       activemodel (>= 3.0)
       activesupport (>= 3.0)
@@ -562,7 +562,7 @@ GEM
       event_stream_parser (>= 0.3.0, < 2.0.0)
       faraday (>= 1)
       faraday-multipart (>= 1)
-    ruby-saml (1.18.0)
+    ruby-saml (1.18.1)
       nokogiri (>= 1.13.10)
       rexml
     ruby-vips (2.2.3)
@@ -721,7 +721,7 @@ DEPENDENCIES
   rspec-its
   rspec-rails (~> 7.1.1)
   ruby-openai
-  ruby-saml
+  ruby-saml (>= 1.18.1)
   ruby-vips
   sass-rails
   sentry-rails
@@ -747,4 +747,4 @@ RUBY VERSION
    ruby 3.4.1p0
 
 BUNDLED WITH
-   2.4.12
+   2.6.9
