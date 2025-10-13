@@ -1,15 +1,15 @@
 source 'http://rubygems.org'
 
 ruby '3.4.1'
-gem 'rails', '7.0.8.7'
-gem 'rack', '2.2.13'
-gem 'uri', '1.0.3'
+gem 'rails', '7.1.0'
+gem 'rack', '2.2.20'
+gem 'uri', '1.0.4'
 gem 'rake'
 gem 'pg'
-gem 'active_record_extended'
-gem 'haml-rails', '~> 2.1.0'
+gem 'active_record_extended', '>= 3.4.0'
+gem 'haml-rails', '~> 3.0.0'
 gem 'devise', '~> 4.9.4'
-gem 'devise-i18n'
+gem 'devise-i18n', '>= 1.14.0'
 gem 'devise-pwned_password'
 gem 'active_model_serializers', '~> 0.8.1'
 gem 'actionpack-action_caching'
@@ -23,21 +23,21 @@ gem 'nokogiri'
 gem 'twitter-text', github: 'loomio/twitter-text'
 gem 'redcarpet', '~> 3.6.1'
 gem 'paper_trail', '~> 16.0.0'
-gem 'sidekiq', '~> 6.5.12'
+gem 'sidekiq', '~> 7.0.0'
 gem 'friendly_id', '~> 5.5.1'
 gem 'httparty', '~> 0.23.1'
 gem 'browser', '~> 6.2.0'
 gem "aws-sdk-s3", require: false
-gem "ruby-openai"
-gem "google-cloud-storage", "~> 1.56", require: false
+gem "ruby-openai", ">= 8.2.0"
+gem "google-cloud-storage", "~> 1.57", ">= 1.57.0", require: false
 gem 'image_processing', '~> 1.14'
 gem "ruby-vips"
 gem "stackprof"
 gem "sentry-ruby"
-gem "sentry-rails"
-gem "sentry-sidekiq"
+gem "sentry-rails", ">= 5.24.0"
+gem "sentry-sidekiq", ">= 5.24.0"
 gem 'http_accept_language'
-gem 'sprockets', '3.7.2'
+gem 'sprockets', '3.7.3'
 gem 'sprockets-rails', require: 'sprockets/railtie'
 gem 'sass-rails'
 gem 'uuidtools'
@@ -55,13 +55,13 @@ gem 'redis-rails'
 gem 'hiredis'
 gem 'connection_pool'
 gem 'ruby-saml'
-gem 'google-cloud-translate'
+gem 'google-cloud-translate', '>= 3.7.2'
 gem 'puma'
 gem 'reverse_markdown'
 gem 'discard', '~> 1.4'
 gem 'lograge'
 gem 'video_info'
-gem 'blazer'
+gem 'blazer', '>= 3.3.0'
 gem 'terminal-table'
 gem 'tzinfo-data'
 gem 'pg_search'
@@ -71,7 +71,7 @@ gem 'victor', require: false
 
 group :development, :test do
   gem 'byebug'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 6.5.0'
   gem 'faker'
   gem 'dotenv-rails'
   gem 'rails-controller-testing'
@@ -87,7 +87,7 @@ group :test do
   gem 'webmock'
   gem 'rack_session_access'
   gem 'drb'
-  gem 'rspec-rails', '~> 7.1.1'
+  gem 'rspec-rails', '~> 8.0.0'
   gem 'rspec-its'
   gem 'rspec-collection_matchers'
   gem 'rspec-activemodel-mocks'
