@@ -48,7 +48,7 @@ gem 'premailer-rails'
 gem 'activerecord-import', '2.1.0'
 gem 'discriminator', '~> 0.1.1'
 gem 'icalendar'
-gem 'rack-attack'
+gem 'rack-attack', '>= 6.8.0'
 gem 'bootsnap', require: false
 gem 'redis-objects'
 gem 'redis-rails'
