@@ -22,7 +22,7 @@ gem 'ransack', '4.3.0'
 gem 'nokogiri'
 gem 'twitter-text', github: 'loomio/twitter-text'
 gem 'redcarpet', '~> 3.6.1'
-gem 'paper_trail', '~> 16.0.0'
+gem 'paper_trail', '~> 17.0.0'
 gem 'sidekiq', '~> 6.5.12'
 gem 'friendly_id', '~> 5.5.1'
 gem 'httparty', '~> 0.23.1'
@@ -84,7 +84,7 @@ group :development do
 end
 
 group :test do
-  gem 'webmock'
+  gem 'webmock', '>= 3.25.2'
   gem 'rack_session_access'
   gem 'drb'
   gem 'rspec-rails', '~> 7.1.1'
