@@ -24,7 +24,7 @@ gem 'twitter-text', github: 'loomio/twitter-text'
 gem 'redcarpet', '~> 3.6.1'
 gem 'paper_trail', '~> 16.0.0'
 gem 'sidekiq', '~> 6.5.12'
-gem 'friendly_id', '~> 5.5.1'
+gem 'friendly_id', '~> 5.6.0'
 gem 'httparty', '~> 0.23.1'
 gem 'browser', '~> 6.2.0'
 gem "aws-sdk-s3", require: false
@@ -73,7 +73,7 @@ group :development, :test do
   gem 'byebug'
   gem 'factory_bot_rails'
   gem 'faker'
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '>= 3.2.0'
   gem 'rails-controller-testing'
 end
 
