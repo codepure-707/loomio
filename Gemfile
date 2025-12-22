@@ -27,7 +27,7 @@ gem 'sidekiq', '~> 6.5.12'
 gem 'friendly_id', '~> 5.5.1'
 gem 'httparty', '~> 0.23.1'
 gem 'browser', '~> 6.2.0'
-gem "aws-sdk-s3", require: false
+gem "aws-sdk-s3", ">= 1.208.0", require: false
 gem "ruby-openai"
 gem "google-cloud-storage", "~> 1.56", require: false
 gem 'image_processing', '~> 1.14'
