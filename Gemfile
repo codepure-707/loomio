@@ -28,8 +28,8 @@ gem 'friendly_id', '~> 5.5.1'
 gem 'httparty', '~> 0.23.1'
 gem 'browser', '~> 6.2.0'
 gem "aws-sdk-s3", require: false
-gem "ruby-openai"
-gem "google-cloud-storage", "~> 1.56", require: false
+gem "ruby-openai", ">= 8.2.0"
+gem "google-cloud-storage", "~> 1.57", ">= 1.57.0", require: false
 gem 'image_processing', '~> 1.14'
 gem "ruby-vips"
 gem "stackprof"
@@ -55,7 +55,7 @@ gem 'redis-rails'
 gem 'hiredis'
 gem 'connection_pool'
 gem 'ruby-saml'
-gem 'google-cloud-translate'
+gem 'google-cloud-translate', '>= 3.7.2'
 gem 'puma'
 gem 'reverse_markdown'
 gem 'discard', '~> 1.4'
